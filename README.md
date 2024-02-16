@@ -14,19 +14,24 @@ Initialize the Notification Service.
 Create a notification object with the desired content.
 
 Call the send method of the Notification Service, passing the notification object.
+
 // Example Usage
+
 const NotificationService = require('./notificationService');
 
 // Initialize notification service
+
 const notifier = new NotificationService();
 
 // Create a notification
+
 const notification = {
   title: 'New Message',
   message: 'You have a new message!'
 };
 
 // Send notification
+
 notifier.send(notification);
 Testing
 
